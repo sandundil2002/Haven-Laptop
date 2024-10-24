@@ -1,0 +1,6 @@
+.stats-box:hover {
+    background: linear-gradient(to left, #d946ef, #2563eb);
+    svg, h4, p {
+        color: #fff;
+    }
+}

@@ -11,29 +11,29 @@ function Carousal() {
                 <div className="relative h-[90vh] overflow-hidden">
                     <div className="block duration-700 ease-in-out" data-carousel-item>
                         <img src={carousal1} className="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Slide 1" />
-                        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-                            <h1 className="text-white text-8xl font-semibold">Latest Laptops</h1>
+                        <div className="absolute inset-0 flex items-center justify-center text-center bg-black bg-opacity-40">
+                            <h1 className="text-white text-7xl font-semibold">Latest Laptops</h1>
                         </div>
                     </div>
 
                     <div className="hidden duration-700 ease-in-out" data-carousel-item>
                         <img src={carousal2} className="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Slide 2" />
-                        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-                            <h1 className="text-white text-8xl font-semibold">Gamimg Laptops</h1>
+                        <div className="absolute inset-0 flex items-center justify-center text-center bg-black bg-opacity-40">
+                            <h1 className="text-white text-7xl font-semibold">Gaming Laptops</h1>
                         </div>
                     </div>
 
                     <div className="hidden duration-700 ease-in-out" data-carousel-item>
                         <img src={carousal3} className="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Slide 3" />
-                        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-                            <h1 className="text-white text-8xl font-semibold">Student Laptops</h1>
+                        <div className="absolute inset-0 flex items-center justify-center text-center bg-black bg-opacity-40">
+                            <h1 className="text-white text-7xl font-semibold">Student Laptops</h1>
                         </div>
                     </div>
 
                     <div className="hidden duration-700 ease-in-out" data-carousel-item>
                         <img src={carousal4} className="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Slide 4" />
-                        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-                            <h1 className="text-white text-8xl font-semibold">Business Laptops</h1>
+                        <div className="absolute inset-0 flex items-center justify-center text-center bg-black bg-opacity-40">
+                            <h1 className="text-white text-7xl font-semibold">Business Laptops</h1>
                         </div>
                     </div>
                 </div>

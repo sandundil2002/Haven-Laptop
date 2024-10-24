@@ -5,7 +5,7 @@ function About() {
     return (
         <>
             <h1 class="mt-5 text-3xl font-bold text-gray-900 text-center dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">About Us</span></h1>
-            <section class="py-10 sm:py-16 lg:py-24">
+            <section class="py-10 ">
                 <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div class="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
                         <div class="relative mb-12">
