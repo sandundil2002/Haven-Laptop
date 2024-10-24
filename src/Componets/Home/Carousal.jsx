@@ -9,7 +9,6 @@ function Carousal() {
         <>
             <div id="default-carousel" className="relative w-full" data-carousel="slide">
                 <div className="relative h-[90vh] overflow-hidden">
-                    {/* Slide 1 */}
                     <div className="block duration-700 ease-in-out" data-carousel-item>
                         <img src={carousal1} className="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Slide 1" />
                         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
