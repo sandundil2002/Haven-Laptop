@@ -4,6 +4,7 @@ import Carousal from './Components/Home/Carousal'
 import About from './Components/About/About'
 import Stats from './Components/About/Stats'
 import Service from './Components/Service/Service'
+import Brands from './Components/Service/Brands'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Stats />
       <Service />
+      <Brands />
     </>
   )
 }

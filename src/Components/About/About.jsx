@@ -4,8 +4,8 @@ import about from '../../assets/about-us-img.png'
 function About() {
     return (
         <>
-            <h1 class="mt-5 text-3xl font-bold text-gray-900 text-center dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">About Us</span></h1>
-            <section class="py-10 ">
+            <h1 class="mt-10 text-3xl font-bold text-gray-900 text-center dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">About Us</span></h1>
+            <section class="py-10 mt-2">
                 <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div class="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
                         <div class="relative mb-12">
@@ -30,7 +30,7 @@ function About() {
                                 </svg>
                             </div>
                             <h2 class="mt-10 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">Empowering Your Digital Journey</h2>
-                            <p class="mt-6 text-lg leading-relaxed text-justify text-gray-600">At Laptop Haven, we simplify your tech experience with top-quality laptops and exceptional service. Whether you need the latest innovations or trusted brands, we’re here to help you find the perfect fit. Discover performance, style, and support—your journey to excellence starts here.</p>
+                            <p class="mt-6 text-lg leading-relaxed text-justify text-gray-600">At Haven Laptop, we simplify your tech experience with top-quality laptops and exceptional service. Whether you need the latest innovations or trusted brands, we’re here to help you find the perfect fit. Discover performance, style, and support—your journey to excellence starts here.</p>
                             <a href="#" title="" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:opacity-80 focus:opacity-80" role="button"> Contact Us </a>
                         </div>
                     </div>
