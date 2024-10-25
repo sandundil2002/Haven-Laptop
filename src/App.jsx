@@ -1,8 +1,9 @@
 import './App.css'
-import Navbar from './Componets/Home/Navbar'
-import Carousal from './Componets/Home/Carousal'
-import About from './Componets/About/About'
-import Stats from './Componets/About/Stats'
+import Navbar from './Components/Home/Navbar'
+import Carousal from './Components/Home/Carousal'
+import About from './Components/About/About'
+import Stats from './Components/About/Stats'
+import Service from './Components/Service/Service'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Carousal />
       <About />
       <Stats />
+      <Service />
     </>
   )
 }
