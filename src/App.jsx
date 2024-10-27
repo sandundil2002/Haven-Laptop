@@ -8,6 +8,7 @@ import Brands from './Components/Service/Brands'
 import Products from './Components/Products/Products'
 import Feedbacks from './Components/Review/Feedbacks'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Products />
       <Feedbacks />
       <Contact />
+      <Footer />
     </>
   )
 }
