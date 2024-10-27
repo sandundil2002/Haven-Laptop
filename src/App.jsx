@@ -7,6 +7,7 @@ import Service from './Components/Service/Service'
 import Brands from './Components/Service/Brands'
 import Products from './Components/Products/Products'
 import Feedbacks from './Components/Review/Feedbacks'
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Brands />
       <Products />
       <Feedbacks />
+      <Contact />
     </>
   )
 }
