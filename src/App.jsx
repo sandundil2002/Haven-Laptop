@@ -5,6 +5,7 @@ import About from './Components/About/About'
 import Stats from './Components/About/Stats'
 import Service from './Components/Service/Service'
 import Brands from './Components/Service/Brands'
+import Products from './Components/Products/Products'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Stats />
       <Service />
       <Brands />
+      <Products />
     </>
   )
 }
