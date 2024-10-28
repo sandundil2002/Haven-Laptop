@@ -1,5 +1,6 @@
 import React from 'react'
 import about from '../../assets/about-us-img.png'
+import Stats from '../About/Stats'
 
 function About() {
     return (
@@ -36,6 +37,7 @@ function About() {
                     </div>
                 </div>
             </section>
+            <Stats />
         </>
     )
 }

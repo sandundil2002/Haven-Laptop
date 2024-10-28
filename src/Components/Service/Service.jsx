@@ -2,6 +2,7 @@ import React from 'react';
 import service1 from '../../assets/warranty.png';
 import service2 from '../../assets/tailored-solutions.png';
 import service3 from '../../assets/home-delivery.png';
+import Brands from '../Service/Brands'
 
 function Service() {
   return (
@@ -30,6 +31,7 @@ function Service() {
           </div>
         </div>
       </section>
+      <Brands />
     </>
   );
 }

@@ -3,6 +3,11 @@ import carousal1 from "../../assets/carousal1.jpg";
 import carousal2 from "../../assets/carousal2.jpg";
 import carousal3 from "../../assets/carousal3.jpg";
 import carousal4 from "../../assets/carousal4.jpg";
+import About from '../About/About'
+import Service from '../Service/Service'
+import Products from '../Products/Products'
+import Feedbacks from '../Review/Feedbacks'
+import Contact from '../Contact/Contact'
 
 function Carousal() {
     return (
@@ -62,6 +67,11 @@ function Carousal() {
                     </span>
                 </button>
             </div>
+            <About />
+            <Service />
+            <Products />
+            <Feedbacks />
+            <Contact />
         </>
     );
 }
